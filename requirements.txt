@@ -1,8 +1,9 @@
 aiogram==3.7.0
 telethon==1.36.0
-sqlalchemy[asyncio]==2.0.30
+SQLAlchemy==2.0.30
 asyncpg==0.29.0
 python-dotenv==1.0.1
 loguru==0.7.2
 aiohttp==3.9.5
 aiofiles==23.2.1
+greenlet==3.0.3
