@@ -1,6 +1,7 @@
 aiogram
 telethon
-sqlalchemy
+sqlalchemy[asyncio]
+asyncpg
 psycopg2-binary
 python-dotenv
 loguru
