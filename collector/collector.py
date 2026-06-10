@@ -20,7 +20,7 @@ PHONE = os.getenv("PHONE", "")
 BOT_TOKEN = os.getenv("BOT_TOKEN", "")
 ADMIN_IDS = [int(x) for x in os.getenv("ADMIN_IDS", "").split(",") if x.strip()]
 
-client = TelegramClient("it_topar_session", API_ID, API_HASH)
+client = TelegramClient("/app/it_topar_session", API_ID, API_HASH)
 _bot = None
 
 
